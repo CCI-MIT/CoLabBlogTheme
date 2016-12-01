@@ -301,6 +301,39 @@ header nav ul li a {
     border-radius: 5px;
 }
 
+/* Fix image wrapping */
+
+
+img.alignright {
+    float: right;
+    margin: 0 0 1em 1em;
+}
+
+img.alignleft {
+    float: left;
+    margin: 0 1em 1em 0;
+}
+
+img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.alignright {
+    float: right;
+}
+
+.alignleft {
+    float: left;
+}
+
+.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* --------------------------------------------------------------------------------- */
 /* Footer classes */
 /* --------------------------------------------------------------------------------- */
