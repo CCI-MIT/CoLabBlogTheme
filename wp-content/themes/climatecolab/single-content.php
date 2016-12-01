@@ -1,3 +1,4 @@
+
 <div class="blog-post">
     <a href="<?php the_permalink(); ?>"><h2 class="blog-post-title"><?php the_title(); ?></h2></a>
     <div class="post-date">
@@ -8,7 +9,7 @@
         <script type="text/javascript">var addthis_config={data_track_clickback:true};</script>
         <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#username=climatecolab"></script>
     </div>
-    <?php the_excerpt(); ?>
+    <?php the_content(); ?>
     <div class="post-author">
         By <a href="#"><?php the_author(); ?></a>
     </div>
