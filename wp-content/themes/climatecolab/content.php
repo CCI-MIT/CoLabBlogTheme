@@ -9,6 +9,10 @@
         <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#username=climatecolab"></script>
     </div>
     <?php the_excerpt(); ?>
+    <a href="<?php the_permalink(); ?>">
+        <span>Read more about:  <?php the_title(); ?> </span>
+    </a>
+    <br/>
     <div class="post-author">
         By <a href="#"><?php the_author(); ?></a>
     </div>
