@@ -56,7 +56,7 @@
             <ul class="tabbar clearfix">
                 <li class="tab"><a href="http://climatecolab.org/web/guest/members">Members</a></li>
                 <li class="tab"><a href="http://climatecolab.org/web/guest/discussion">Discussion</a></li>
-                <li class="tab active"><a href="http://blog.climatecolab.org">News</a></li>
+                <li class="tab active"><a href="http://news.climatecolab.org">News</a></li>
             </ul>
         </div>
     </div>
