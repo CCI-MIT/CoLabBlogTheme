@@ -7,6 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title><?php echo get_bloginfo('name'); ?></title>
+    <link href="http://climatecolab.org/climatecolab-theme/images/favicon.ico" rel="Shortcut Icon">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
     <link href="<?php bloginfo('template_directory');?>/blog.css" rel="stylesheet">
     <link href="<?php bloginfo('template_directory');?>/style.css" rel="stylesheet">
