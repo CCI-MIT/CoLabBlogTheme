@@ -1,17 +1,17 @@
-<?php
-/**
- * Front to the WordPress application. This file doesn't do anything, but loads
- * wp-blog-header.php which does and tells WordPress to load the theme.
- *
- * @package WordPress
- */
-
-/**
- * Tells WordPress to load the WordPress theme and output it.
- *
- * @var bool
- */
-define('WP_USE_THEMES', true);
-
-/** Loads the WordPress Environment and Template */
-require( dirname( __FILE__ ) . '/wp-blog-header.php' );
+<?php get_header(); ?>
+    <div class="row">
+        <div class="col-sm-8 blog-main">
+            <?php 
+            if (have_posts()) : while (have_posts()) : the_post();
+                get_template_part('content', get_post_format());
+            endwhile; endif; 
+            ?>
+            <div class="pagination clearfix">
+                <div class="nav-previous right"><?php next_posts_link( 'Older posts »' ); ?></div>
+                <div class="nav-next left"><?php previous_posts_link( '« Newer posts' ); ?></div>
+            </div> 
+            <hr />
+        </div>
+        <?php get_sidebar(); ?>
+    </div>
+<?php get_footer(); ?>
