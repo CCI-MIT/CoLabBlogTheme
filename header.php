@@ -10,7 +10,7 @@
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
     <link href="<?php bloginfo('template_directory');?>/style.css" rel="stylesheet">
 
-    <link href="http://climatecolab.org/climatecolab-theme/images/favicon.ico" rel="Shortcut Icon">
+    <link href="https://cdn.climatecolab.org/images/favicon.ico" rel="Shortcut Icon">
 
     <?php wp_head();?>
 
