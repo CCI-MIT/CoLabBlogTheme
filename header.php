@@ -24,7 +24,7 @@
     <header>
         <nav class="center">
             <ul class="menu_left">
-                <a href="http://climatecolab.org"><img src="<?php bloginfo('template_directory');?>/images/logo-climate-colab.png" /></a>
+                <a href="http://climatecolab.org"><img src="https://cdn.climatecolab.org/images/logo-climate-colab.png" /></a>
                 <li>
                     <a class="blog-nav-item" href="http://climatecolab.org/web/guest/about">About</a>
                 </li>
