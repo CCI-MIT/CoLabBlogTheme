@@ -12,7 +12,7 @@
             </div> 
             <hr />
             <?php else : ?>
-                <p class="no-search-results"><b>No results found for your search term. <a href="http://blog.climatecolab.org">Return to our blog.</a></b></p>
+                <p class="no-search-results"><b>No results found for your search term. <a href="https://news.climatecolab.org">Return to the news page.</a></b></p>
             <?php endif; ?>
         </div>
         <?php get_sidebar(); ?>
