@@ -17,8 +17,6 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     <?php wp_head();?>
-    <script src="https://use.typekit.net/bmu2xym.js"></script>
-    <script>try{Typekit.load({ async: true });}catch(e){}</script>
 </head>
 <body>
     <header>
