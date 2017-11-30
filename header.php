@@ -7,6 +7,7 @@
 
     <title><?php echo get_bloginfo('name'); ?></title>
 
+    <link rel="stylesheet" href="https://use.typekit.net/oth6dtk.css">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
     <link href="<?php bloginfo('template_directory');?>/style.css" rel="stylesheet">
 
