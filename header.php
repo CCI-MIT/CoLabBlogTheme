@@ -24,7 +24,7 @@
 
 <body>
     <header>
-        <nav class="center">
+        <nav class="center" aria-label="site wide">
             <a href="https://www.climatecolab.org">
                 <img src="https://cdn.climatecolab.org/images/logo-climate-colab.png" />
             </a>
@@ -57,12 +57,14 @@
         <div class="center">
             <div class="headline">
                 <h1>Community News</h1>
-            </div>        
-            <ul class="tabbar clearfix">
-                <li class="tab"><a href="https://www.climatecolab.org/members">Members</a></li>
-                <li class="tab"><a href="https://www.climatecolab.org/discussion">Discussion</a></li>
-                <li class="tab active"><a href="https://news.climatecolab.org">News</a></li>
-            </ul>
+            </div>
+            <nav aria-label="section wide">
+                <ul class="tabbar clearfix">
+                    <li class="tab"><a href="https://www.climatecolab.org/members">Members</a></li>
+                    <li class="tab"><a href="https://www.climatecolab.org/discussion">Discussion</a></li>
+                    <li class="tab active"><a href="https://news.climatecolab.org">News</a></li>
+                </ul>
+            </nav>
         </div>
     </div>
     <div class="center">
