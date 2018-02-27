@@ -26,7 +26,7 @@
     <header>
         <nav class="center" aria-label="site wide">
             <a href="https://www.climatecolab.org">
-                <img src="/images/logo-climate-colab.png" />
+                <img src="<?= get_template_directory_uri() ?>/images/logo-climate-colab.png" />
             </a>
             <ul class="menu_left">
                 <li>
